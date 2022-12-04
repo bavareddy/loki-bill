@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    padding: 10px;
+    font-weight: lighter;
+ border-radius: 10px;
+}
+.up-line{
+
+
+}
+.btn-bill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.border{
+   
+    border-block: 2px solid black;
+    
+    
+}
+.flex-r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+
+}
+.c-1{
+    background-color: #08aabf;
+    grid-column: span 2;padding: 9px;
+
+}
+.Account>h5{
+    background-color: #08aabf;
+    border: 2px solid rgb(0, 0, 0);padding: 9px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.c-3{
+    border: 2px solid rgb(43, 41, 41);
+    padding: 9px;
+}
+.c-4{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+}
+.c-5{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+    grid-column: span 2;
+}
+.c-6{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+}
+.c-7{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+}
+.c-8{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+.c-9{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+    grid-column: span 2;
+   
+}
+.c-10{
+    border: 2px solid rgb(43, 41, 41);padding: 9px;
+    grid-column: span 2;
+   
+}
+.grid-parent{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    /* border: 2px solid red; */
+}
+.grid{
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+img{
+    width: 90px;
+}
+.submit{
+    text-align: center
+}
